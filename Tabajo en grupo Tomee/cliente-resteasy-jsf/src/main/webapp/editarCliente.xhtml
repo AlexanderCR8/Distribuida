@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	
+	<title>Edicion  Cliente</title>
+</h:head>
+<h:body>
+	<h2 align="center">EDITAR CLIENTE</h2>
+	<h:form>
+	<div class="row d-flex justify-content-center">
+		<div class="col-xs-6">
+		<h:panelGrid columns="2" cellpadding="5" cellspacing="1" border="1" styleClass="card text-white bg-secondary">
+			<h:outputText value="Nombre" />
+			<h:inputText value="#{controladorCliente.cliente.name}" />
+			<h:outputText value="Apellido" />
+			<h:inputText value="#{controladorCliente.cliente.surname}" />
+				
+		</h:panelGrid>
+		<br/>
+			<h:commandButton value="Guardar" action="#{controladorCliente.editar()}" styleClass="btn btn-warning"/>
+			<h:commandButton value="Cancelar" action="vistaCliente?faces-redirect=true" styleClass="btn btn-info" />
+		
+		</div>
+		</div>
+	</h:form>
+</h:body>
+</html>
