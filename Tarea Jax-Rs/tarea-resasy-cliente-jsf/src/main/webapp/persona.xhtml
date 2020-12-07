@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<title>Gestion Persona</title>
+</h:head>
+<h:body>
+	<h2 align="center">GESTION DE PERSONAS	</h2>
+	
+	
+	<br />
+	
+	<div align="center">
+	<h3> Listado de las Personas</h3>
+	</div>
+	
+	
+	<h:form>
+	
+	    <div class="row d-flex justify-content-center">
+		 <h:commandButton styleClass="btn btn-info" value="Crear Persona" action="crearPersona?faces-redirect=true"/>
+		</div>
+		
+		<br/>
+		<div class="row d-flex justify-content-center">
+		
+		<div class="col-xs-6">
+			<h:dataTable   value="#{controladorPersona.listaPersonas}" var="element" styleClass="table table-striped table-success"
+			cellspacing="1" cellpadding="1" border="1">
+			<h:column>
+				<f:facet name="header">Id</f:facet>
+				<h:outputText value="#{element.id}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Nombre</f:facet>
+				<h:outputText value="#{element.nombre}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Direccion</f:facet>
+				<h:outputText value="#{element.direccion}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Correo</f:facet>
+				<h:outputText value="#{element.correo}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Opciones</f:facet>
+				<h:commandButton value="Editar" action="#{controladorPersona.redireccionEditar(element)}" styleClass="btn btn-warning"/>
+				<h:commandButton value="Eliminar" 
+					action="#{controladorPersona.eliminarPersona(element.id)}" styleClass="btn btn-danger" />
+			</h:column>
+		</h:dataTable>
+		<br />
+		<h:commandButton value="Regresar menu principal"
+			action="index?faces-redirect=true" styleClass="btn btn-info" />
+		
+		</div>
+		
+		</div>
+		
+	</h:form>
+</h:body>
+</html>

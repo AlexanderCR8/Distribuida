@@ -1,0 +1,12 @@
+mvn clean package && java -jar target/servidor-orders-tomee-exec.jar
+
+
+java -DadditionalSystemProperties="-Dhttp.port=8082 -Dshutdown.port=8007" -jar servidor-customer-tomee-exec.jar
+
+
+
+curl -X GET "http://localhost:8280/administracionCustomers/v1.0.0/customer/3" -H "accept: */*" -H "testkey: 3463641a-395d-4150-ab7b-225d3e5baaab"
+
+
+
+

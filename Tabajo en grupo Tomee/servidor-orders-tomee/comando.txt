@@ -1,0 +1,5 @@
+mvn clean package && java -jar target/servidor-orders-tomee-exec.jar
+
+
+java -DadditionalSystemProperties="-Dhttp.port=8082 -Dshutdown.port=8007" -jar servidor-customer-tomee-exec.jar
+

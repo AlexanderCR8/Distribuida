@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [12/Sep/2020:20:34:38 -0500] "GET /orders/orderwithCustomerbyId/1 HTTP/1.1" 200 181
+127.0.0.1 - - [12/Sep/2020:20:41:37 -0500] "GET /orders HTTP/1.1" 200 345
+127.0.0.1 - - [12/Sep/2020:20:41:41 -0500] "GET /orders/orderwithCustomerbyId/1 HTTP/1.1" 200 181
+127.0.0.1 - - [12/Sep/2020:20:41:43 -0500] "GET /orders HTTP/1.1" 200 345
+127.0.0.1 - - [12/Sep/2020:20:42:00 -0500] "POST /orders/crear HTTP/1.1" 200 66
+127.0.0.1 - - [12/Sep/2020:20:42:00 -0500] "GET /orders HTTP/1.1" 200 430
+127.0.0.1 - - [12/Sep/2020:20:42:08 -0500] "PUT /orders/actualizar HTTP/1.1" 200 96
+127.0.0.1 - - [12/Sep/2020:20:42:11 -0500] "DELETE /orders/eliminar/8 HTTP/1.1" 204 -
+127.0.0.1 - - [12/Sep/2020:20:42:11 -0500] "GET /orders HTTP/1.1" 200 345
+127.0.0.1 - - [12/Sep/2020:20:42:18 -0500] "GET /orders HTTP/1.1" 200 345
+127.0.0.1 - - [12/Sep/2020:20:42:23 -0500] "GET /orders/orderwithCustomerbyId/2 HTTP/1.1" 200 175
+127.0.0.1 - - [12/Sep/2020:20:42:26 -0500] "GET /orders HTTP/1.1" 200 345
+127.0.0.1 - - [12/Sep/2020:20:44:35 -0500] "GET /orders/orderwithCustomerbyId/1 HTTP/1.1" 200 181

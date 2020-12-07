@@ -1,0 +1,186 @@
+12-Sep-2020 20:30:32.810 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Nombre de la versión del servidor:   Apache Tomcat (TomEE)/9.0.20 (8.0.0-M3)
+
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          May 3 2019 22:26:00 UTC
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Número de versión de servidor:         9.0.20.0
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Versión de Systema Operativo:      10.0
+
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Arquitectura:          amd64
+
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-11.0.7
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           11.0.7+8-LTS
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Vededor JVM:     Oracle Corporation
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee
+12-Sep-2020 20:30:32.811 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee
+12-Sep-2020 20:30:32.826 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Sep-2020 20:30:32.826 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Sep-2020 20:30:32.826 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Sep-2020 20:30:32.826 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\conf\logging.properties
+12-Sep-2020 20:30:32.827 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\lib\openejb-javaagent.jar
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+12-Sep-2020 20:30:32.828 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.noshutdownhook=true
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\temp
+12-Sep-2020 20:30:32.829 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node js\;C:\Users\alxx_\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\alxx_\AppData\Local\Programs\Python\Python36\;C:\Users\alxx_\AppData\Local\Microsoft\WindowsApps;D:\node js;C:\Program Files\heroku\bin;C:\Users\alxx_\AppData\Local\GitHubDesktop\bin;C:\Users\alxx_\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alxx_\AppData\Local\Programs\Python\Launcher;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\alxx_\AppData\Roaming\npm;C:\Program Files\Java\jdk-11.0.7\bin;C:\Gradle\gradle-6.5\bin;C:\Program Files\apache-maven-3.6.3\bin;;.]
+12-Sep-2020 20:30:33.135 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Inicializando el manejador de protocolo ["http-nio-8281"]
+
+12-Sep-2020 20:30:33.341 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Inicializando el manejador de protocolo ["ajp-nio-8209"]
+
+12-Sep-2020 20:30:33.613 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+12-Sep-2020 20:30:33.624 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+12-Sep-2020 20:30:33.697 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+12-Sep-2020 20:30:33.698 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+12-Sep-2020 20:30:33.698 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sat Sep 12 20:30:33 COT 2020
+12-Sep-2020 20:30:33.698 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+12-Sep-2020 20:30:33.698 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.0-M3
+12-Sep-2020 20:30:33.698 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20190523
+12-Sep-2020 20:30:33.699 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 12:13
+12-Sep-2020 20:30:33.699 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+12-Sep-2020 20:30:33.699 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee
+12-Sep-2020 20:30:33.699 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee
+12-Sep-2020 20:30:33.702 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@45e37a7e
+12-Sep-2020 20:30:33.705 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+12-Sep-2020 20:30:33.737 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\conf\tomee.xml'
+12-Sep-2020 20:30:33.776 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+12-Sep-2020 20:30:33.778 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+12-Sep-2020 20:30:33.781 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+12-Sep-2020 20:30:33.781 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+12-Sep-2020 20:30:33.784 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+12-Sep-2020 20:30:33.837 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+12-Sep-2020 20:30:33.915 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+12-Sep-2020 20:30:34.112 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+12-Sep-2020 20:30:34.112 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+12-Sep-2020 20:30:34.112 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+12-Sep-2020 20:30:34.112 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+12-Sep-2020 20:30:34.112 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.noshutdownhook=true'
+12-Sep-2020 20:30:34.113 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1.544] milliseconds
+12-Sep-2020 20:30:34.161 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+12-Sep-2020 20:30:34.161 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+12-Sep-2020 20:30:34.179 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Arrancando servicio [Catalina]
+12-Sep-2020 20:30:34.179 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/9.0.20 (8.0.0-M3)]
+12-Sep-2020 20:30:34.203 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Despliegue del archivo [D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT.war] de la aplicación web
+12-Sep-2020 20:30:34.210 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+12-Sep-2020 20:30:34.212 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT.war
+12-Sep-2020 20:30:34.621 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT
+12-Sep-2020 20:30:34.622 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+12-Sep-2020 20:30:35.362 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.scan=all'
+12-Sep-2020 20:30:36.021 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT
+12-Sep-2020 20:30:36.431 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=ROOT/jdbc/prueba, type=Resource, provider-id=Default JDBC Database)
+12-Sep-2020 20:30:36.432 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=ROOT/jdbc/prueba)
+12-Sep-2020 20:30:37.093 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+12-Sep-2020 20:30:37.094 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp1992844647: Container(type=MANAGED, id=Default Managed Container)
+12-Sep-2020 20:30:37.094 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+12-Sep-2020 20:30:37.100 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\temp for stateful session passivation
+12-Sep-2020 20:30:37.108 INFO [main] org.apache.openejb.config.AutoConfig.processResourceRef Auto-linking resource-ref 'openejb/Resource/ROOT/jdbc/prueba' in bean .Comp1992844647 to Resource(id=ROOT/jdbc/prueba)
+12-Sep-2020 20:30:37.109 INFO [main] org.apache.openejb.config.AutoConfig.processResourceRef Auto-linking resource-ref 'openejb/Resource/jdbc/prueba' in bean .Comp1992844647 to Resource(id=ROOT/jdbc/prueba)
+12-Sep-2020 20:30:37.109 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=myCustomer_PU)
+12-Sep-2020 20:30:37.110 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'ROOT/jdbc/pruebaNonJta' of type 'DataSource for 'myCustomer_PU'.
+12-Sep-2020 20:30:37.110 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=ROOT/jdbc/pruebaNonJta, type=Resource, provider-id=ROOT/jdbc/prueba)
+12-Sep-2020 20:30:37.110 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=ROOT/jdbc/pruebaNonJta)
+12-Sep-2020 20:30:37.439 INFO [main] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit myCustomer_PU <jta-data-source> to Resource ID 'ROOT/jdbc/prueba' from 'jdbc/prueba'
+12-Sep-2020 20:30:37.440 INFO [main] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit myCustomer_PU <non-jta-data-source> to Resource ID 'ROOT/jdbc/pruebaNonJta' from 'null'
+12-Sep-2020 20:30:37.460 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT" loaded.
+12-Sep-2020 20:30:37.465 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT
+12-Sep-2020 20:30:37.769 INFO [main] null.openjpa.Runtime OpenJPA dynamically loaded a validation provider.
+12-Sep-2020 20:30:37.786 INFO [main] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=myCustomer_PU, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 300ms
+12-Sep-2020 20:30:37.864 INFO [main] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@45e37a7e
+12-Sep-2020 20:30:37.930 INFO [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+12-Sep-2020 20:30:37.934 INFO [main] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+12-Sep-2020 20:30:38.107 INFO [main] org.apache.openejb.cdi.CdiScanner.handleBda Using annotated mode for jar:file:/D:/universidad/ultimo%20semestre/Distribuida%202020/ejemplosSTS/servidor-customer-tomee/.distribution/apache-tomee/lib/geronimo-config-impl-1.2.1.jar!/META-INF/beans.xml looking all classes to find CDI beans, maybe think to add a beans.xml if not there or add the jar to exclusions.list
+12-Sep-2020 20:30:38.315 INFO [main] org.apache.geronimo.config.configsource.PropertyFileConfigSourceProvider.<init> Custom config found by GeronimoConfig. Name: 'META-INF/microprofile-config.properties', URL: 'file:/D:/universidad/ultimo%20semestre/Distribuida%202020/ejemplosSTS/servidor-customer-tomee/.distribution/apache-tomee/webapps/ROOT/WEB-INF/classes/META-INF/microprofile-config.properties'
+12-Sep-2020 20:30:38.319 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.scan=all'
+12-Sep-2020 20:30:39.131 INFO [main] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+12-Sep-2020 20:30:39.160 INFO [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 1229 ms.
+12-Sep-2020 20:30:39.167 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT)
+12-Sep-2020 20:30:39.300 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+12-Sep-2020 20:30:39.340 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+12-Sep-2020 20:30:39.380 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Sep-2020 20:30:39.391 INFO [main] org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer.addListener Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+12-Sep-2020 20:30:39.469 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+12-Sep-2020 20:30:39.691 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/D:/universidad/ultimo%20semestre/Distribuida%202020/ejemplosSTS/servidor-customer-tomee/.distribution/apache-tomee/lib/openwebbeans-el22-2.0.9.jar!/META-INF/faces-config.xml
+12-Sep-2020 20:30:39.693 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/D:/universidad/ultimo%20semestre/Distribuida%202020/ejemplosSTS/servidor-customer-tomee/.distribution/apache-tomee/lib/openwebbeans-jsf-2.0.9.jar!/META-INF/faces-config.xml
+12-Sep-2020 20:30:39.799 INFO [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.3.3' from path 'file:/D:/universidad/ultimo%20semestre/Distribuida%202020/ejemplosSTS/servidor-customer-tomee/.distribution/apache-tomee/lib/myfaces-api-2.3.3.jar'
+12-Sep-2020 20:30:39.799 INFO [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.3.3' from path 'file:/D:/universidad/ultimo%20semestre/Distribuida%202020/ejemplosSTS/servidor-customer-tomee/.distribution/apache-tomee/lib/myfaces-impl-2.3.3.jar'
+12-Sep-2020 20:30:39.819 INFO [main] org.apache.myfaces.util.ExternalSpecifications.isCDIAvailable MyFaces CDI support enabled
+12-Sep-2020 20:30:39.821 INFO [main] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+12-Sep-2020 20:30:39.875 INFO [main] org.apache.myfaces.util.ExternalSpecifications.isBeanValidationAvailable MyFaces Bean Validation support enabled
+12-Sep-2020 20:30:40.094 INFO [main] org.apache.myfaces.application.ApplicationImpl.getProjectStage Couldn't discover the current project stage, using Production
+12-Sep-2020 20:30:40.094 INFO [main] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+12-Sep-2020 20:30:40.100 INFO [main] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+12-Sep-2020 20:30:40.127 INFO [main] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+12-Sep-2020 20:30:40.139 INFO [main] org.apache.myfaces.view.facelets.ViewPoolProcessor.initialize org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+12-Sep-2020 20:30:40.152 INFO [main] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [756] ms.
+12-Sep-2020 20:30:40.175 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.cxf-rs.cache-application=false'
+12-Sep-2020 20:30:40.478 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@6db59e26
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@5367d46f
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@6c4eccd2
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@564e9c0b
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@4c7d19bf
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@21d478f3
+12-Sep-2020 20:30:40.479 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@7a8e35d1
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@32aa27a7
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@5c7c22ce
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@738ed8d3
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@328b2c2a
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@517fb2c3
+12-Sep-2020 20:30:40.480 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@6c289070
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@5c7c22ce
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@4c7d19bf
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@6db59e26
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@5367d46f
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@6c4eccd2
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.geronimo.microprofile.openapi.jaxrs.JacksonOpenAPIYamlBodyWriter@69e58566
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@564e9c0b
+12-Sep-2020 20:30:40.481 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@21d478f3
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@7a8e35d1
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@32aa27a7
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@738ed8d3
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@328b2c2a
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@2f6ede9
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.tomee.microprofile.jwt.MPJWTFilter$MPJWTExceptionMapper@4583a186
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@6dd59886
+12-Sep-2020 20:30:40.482 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@55854382
+12-Sep-2020 20:30:40.485 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8281/                                       -> com.distribuida.rest.RestApplication@77da2881
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8281/customers                              -> Pojo com.distribuida.rest.CustomerRest                                       
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints            DELETE http://localhost:8281/customers/eliminar/{id}                ->      Response elimarCustomer(Integer)         
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/customers                              ->      List<Customer> listaCustomers()          
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/customers/customer/{id}                ->      Customer customerPorId(Integer)          
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/customers/customersbySurname/{surname} ->      List<Customer> customerPorSurname(String)
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8281/customers/crear                        ->      Customer crearCustomer(Customer)         
+12-Sep-2020 20:30:40.491 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               PUT http://localhost:8281/customers/actualizar                   ->      Response actualizarPersona(Customer)     
+12-Sep-2020 20:30:40.492 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8281/health                                 -> Pojo org.apache.geronimo.microprofile.impl.health.cdi.CdiHealthChecksEndpoint
+12-Sep-2020 20:30:40.492 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/health                                 ->      Response getChecks()
+12-Sep-2020 20:30:40.500 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8281/metrics                                -> Pojo org.apache.geronimo.microprofile.metrics.jaxrs.CdiMetricsEndpoints      
+12-Sep-2020 20:30:40.500 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/metrics                                ->      Object getJson(SecurityContext, UriInfo)                    
+12-Sep-2020 20:30:40.500 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/metrics                                ->      String getText(SecurityContext, UriInfo)                    
+12-Sep-2020 20:30:40.501 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/metrics/{registry}                     ->      Object getJson(String, SecurityContext, UriInfo)            
+12-Sep-2020 20:30:40.503 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/metrics/{registry}                     ->      String getText(String, SecurityContext, UriInfo)            
+12-Sep-2020 20:30:40.504 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/metrics/{registry}/{metric}            ->      Object getJson(String, String, SecurityContext, UriInfo)    
+12-Sep-2020 20:30:40.504 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/metrics/{registry}/{metric}            ->      String getText(String, String, SecurityContext, UriInfo)    
+12-Sep-2020 20:30:40.504 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints           OPTIONS http://localhost:8281/metrics/{registry}                     ->      Object getMetadata(String, SecurityContext, UriInfo)        
+12-Sep-2020 20:30:40.504 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints           OPTIONS http://localhost:8281/metrics/{registry}/{metric}            ->      Object getMetadata(String, String, SecurityContext, UriInfo)
+12-Sep-2020 20:30:40.505 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8281/openapi                                -> Pojo org.apache.geronimo.microprofile.openapi.jaxrs.OpenAPIEndpoint          
+12-Sep-2020 20:30:40.505 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8281/openapi                                ->      OpenAPI get()
+12-Sep-2020 20:30:40.546 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [D:\universidad\ultimo semestre\Distribuida 2020\ejemplosSTS\servidor-customer-tomee\.distribution\apache-tomee\webapps\ROOT.war] has finished in [6.343] ms
+12-Sep-2020 20:30:40.553 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+12-Sep-2020 20:30:40.554 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+12-Sep-2020 20:30:40.554 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+12-Sep-2020 20:30:40.554 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+12-Sep-2020 20:30:40.562 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8281"]
+12-Sep-2020 20:30:40.568 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8209"]
+12-Sep-2020 20:30:40.571 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [6.456] milliseconds
+12-Sep-2020 20:32:25.340 INFO [http-nio-8281-exec-1] null.openjpa.Runtime Starting OpenJPA 3.1.0
+12-Sep-2020 20:32:25.390 INFO [http-nio-8281-exec-1] null.openjpa.jdbc.JDBC Using dictionary class "org.apache.openjpa.jdbc.sql.PostgresDictionary" (PostgreSQL 12.3 ,PostgreSQL JDBC Driver 42.2.8).
+12-Sep-2020 20:32:25.417 INFO [http-nio-8281-exec-1] null.openjpa.jdbc.JDBC Connected to PostgreSQL version 12.12 using JDBC driver PostgreSQL JDBC Driver version 42.2.8.

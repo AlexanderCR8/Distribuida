@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.distribuida</groupId>
+	<artifactId>servidor-orders-tomee</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<tomee.version>8.0.4</tomee.version>
+		<final.name>servidor-orders-tomee</final.name>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>org.eclipse.microprofile</groupId>
+			<artifactId>microprofile</artifactId>
+			<version>3.3</version>
+			<type>pom</type>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-agroal</artifactId>
+			<version>5.4.21.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.8</version>
+		</dependency>
+		<dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-x-discovery</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+
+	</dependencies>
+	<build>
+		<finalName>servidor-orders-tomee</finalName>
+	</build>
+	<profiles>
+		<profile>
+			<id>tomee</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.tomee.maven</groupId>
+						<artifactId>tomee-maven-plugin</artifactId>
+						<version>${tomee.version}</version>
+						<executions>
+							<execution>
+								<id>executable-jar</id>
+								<phase>package</phase>
+								<goals>
+									<goal>exec</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<context>ROOT</context>
+							<tomeeClassifier>microprofile</tomeeClassifier>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

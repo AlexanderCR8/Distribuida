@@ -1,0 +1,1 @@
+web: java -jar target/tarea-helidon-servidor-dbClient-all.jar

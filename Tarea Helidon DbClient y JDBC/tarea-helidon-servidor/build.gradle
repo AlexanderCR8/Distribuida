@@ -1,0 +1,43 @@
+
+plugins {
+
+    id 'java-library'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+repositories {
+
+    jcenter()
+}
+
+ext{
+ helidonVersion = '2.0.1'
+}
+dependencies {
+ //import helidon manage
+    implementation platform("io.helidon:helidon-dependencies:${project.helidonVersion}")
+    compile group: 'io.helidon.microprofile.server', name: 'helidon-microprofile-server'
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.29.1'
+    
+    //BD
+	compile group: 'org.postgresql', name: 'postgresql', version: '42.2.8'
+	compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.7.0'
+}
+
+task copyLibs(type: Copy){
+ group 'build'
+ from configurations.runtimeClasspath
+ into 'build/libs/lib'
+}
+
+// para ensamblar el jar
+jar{
+ manifest{
+  attributes "Main-Class":"io.helidon.microprofile.server.Main"
+ }
+}
+
+//para ensamblar el jar con las librerias completo
+shadowJar{
+ mergeServiceFiles()
+}
