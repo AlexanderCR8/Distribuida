@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	
+	<title>Creacion Cliente</title>
+</h:head>
+<h:body>
+	<h2 align="center">CREAR NUEVA ORDEN</h2>
+	<h:form>
+	<div class="row d-flex justify-content-center">
+		<div class="col-xs-6">
+		
+		
+		
+			<h:panelGrid columns="2" cellpadding="5" cellspacing="1" border="1" styleClass="card text-white bg-secondary">
+					<h:outputText value="Producto" />
+					<h:inputText value="#{controladorOrdenes.orden.item}" />
+					<h:outputText value="Precio" />
+					<h:inputText value="#{controladorOrdenes.orden.price}" />
+					<h:outputText value="Cliente" />
+					 <h:selectOneMenu value="#{controladorOrdenes.orden.customer_id}">
+            		<f:selectItems value="#{controladorCliente.listaClientes}" var ="cliente" itemValue="#{cliente.id}" itemLabel="#{cliente.name} #{cliente.surname}"  ></f:selectItems>
+        			</h:selectOneMenu>
+					
+					
+				
+				</h:panelGrid>
+		<br/>
+			<h:commandButton value="Guardar" action="#{controladorOrdenes.crearOrden()}" styleClass="btn btn-warning"/>
+			<h:commandButton value="Cancelar" action="vistaOrden?faces-redirect=true" styleClass="btn btn-info" />
+		</div>
+	</div>
+		
+	</h:form>
+</h:body>
+</html>
