@@ -1,0 +1,57 @@
+
+
+plugins {
+    id 'java-library'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+repositories {
+    // Use jcenter for resolving dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+ext{
+ helidonVersion = '2.0.2'
+}
+
+dependencies {
+//import helidon manage
+    implementation platform("io.helidon:helidon-dependencies:${project.helidonVersion}")
+    compile group: 'io.helidon.microprofile.server', name: 'helidon-microprofile-server'
+    compile group: 'io.helidon.microprofile.rest-client', name: 'helidon-microprofile-rest-client', version: '2.0.2'
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.29.1'
+	//db
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.15'
+    //jpa
+	compile group: 'io.helidon.integrations.cdi', name: 'helidon-integrations-cdi-datasource-hikaricp', version: '2.0.2'
+	compile group: 'io.helidon.integrations.cdi', name: 'helidon-integrations-cdi-jta-weld', version: '2.0.2'
+	compile group: 'io.helidon.integrations.cdi', name: 'helidon-integrations-cdi-jpa', version: '2.0.2'
+	compile group: 'io.helidon.integrations.cdi', name: 'helidon-integrations-cdi-hibernate', version: '2.0.2'
+	//compile group: 'io.helidon.integrations.cdi', name: 'helidon-integrations-cdi-eclipselink', version: '2.0.2'
+	
+	compile group: 'jakarta.persistence', name: 'jakarta.persistence-api', version: '2.2.3'
+	compile group: 'jakarta.transaction', name: 'jakarta.transaction-api', version: '1.3.3'
+	
+	//consul
+	//compile group: 'com.ecwid.consul', name:'consul-api', version:'1.4.4'
+	//compile group: 'org.microprofile-ext.config-ext', name: 'configsource-consul', version: '1.0.9'
+
+}
+	task copyLibs(type: Copy) {
+    from configurations.runtimeClasspath
+    into 'build/libs/libs'
+    }
+    
+	copyLibs.dependsOn jar
+	assemble.dependsOn copyLibs
+
+jar {
+    manifest {
+        attributes ('Main-Class': 'io.helidon.microprofile.server.Main',
+            'Class-Path': configurations.runtimeClasspath.files.collect { "libs/$it.name" }.join(' ')
+        )
+    }
+}
+shadowJar{
+    mergeServiceFiles()
+}

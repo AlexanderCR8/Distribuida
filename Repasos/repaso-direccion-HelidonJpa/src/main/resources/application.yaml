@@ -1,0 +1,11 @@
+server:
+    port: 7003
+javax:
+  sql:
+    DataSource:
+      direccionDataSource:
+        dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
+        dataSource:
+          url: jdbc:postgresql://localhost/Repaso
+          user: "postgres"
+          password: "admin"

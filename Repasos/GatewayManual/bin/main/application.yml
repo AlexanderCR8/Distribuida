@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: gateway-service  
+  cloud:
+    gateway:
+      routes:
+      - id: personas
+        uri: lb://balanceo-personas
+        predicates:
+        - Path=/personas/**
+      - id: tipodirecciones
+        uri: lb://balanceo-direccion
+        predicates:
+        - Path=/tipodirecciones/**
+        
+balanceo-personas:
+  ribbon:
+    listOfServers: 127.0.0.1:8090, 127.0.0.1:8091, 127.0.0.1:8092
+
+balanceo-direccion:
+  ribbon:
+    listOfServers: 127.0.0.1:8071, 127.0.0.1:8072
+
+
+server:
+  port: 8091
+

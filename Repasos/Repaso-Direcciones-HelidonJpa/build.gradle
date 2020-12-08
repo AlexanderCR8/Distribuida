@@ -1,0 +1,56 @@
+plugins {
+    id 'java-library'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+    id 'io.freefair.lombok' version '5.1.0'    
+}
+
+repositories {
+    jcenter()
+}
+
+ext{
+    helidonVersion = '2.0.1'
+}
+
+dependencies {
+	
+	implementation platform("io.helidon:helidon-dependencies:${helidonVersion}")
+    compile group: 'io.helidon.microprofile.server', name: 'helidon-microprofile-server', version: '2.0.2'
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.29.1'
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-binding', version: '2.31'
+
+ 	//CDI
+    //compile group: 'org.jboss.weld.se', name: 'weld-se-core', version:'3.1.4.Final'
+    //compile group: 'org.jboss.weld.servlet', name: 'weld-servlet-core', version: '3.1.2.Final'
+    compile group: 'org.jboss.weld.servlet', name: 'weld-servlet-core', version:'3.1.4.Final'
+
+    //JPA Hibernate
+    compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.2.Final'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.7.Final'
+    compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.21.Final'
+    
+    //DB
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.8'
+    //compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.7.0'
+    //Registo
+  //  compile group: 'org.apache.curator', name: 'curator-x-discovery', version: '5.1.0'
+   compile group: 'com.ecwid.consul', name: 'consul-api', version: '1.4.5'
+    
+}
+
+jar{
+    manifest{
+        attributes "Main-Class":"io.helidon.microprofile.server.Main"
+    }
+}
+
+task copyLibs(type: Copy){
+    group 'build'
+    from configurations.runtimeClasspath
+    into 'build/libs/lib'
+}
+
+//heroku
+shadowJar{
+    mergeServiceFiles()
+}

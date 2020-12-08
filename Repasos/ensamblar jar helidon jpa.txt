@@ -1,0 +1,2 @@
+por cmd  hacer : gradle assemble
+luego generar le shadowjar
